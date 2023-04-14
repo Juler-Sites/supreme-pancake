@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gill Sans", sans-serif;
+
+}
+body {
+    background-image: url('https://th.bing.com/th?id=OIP.xZtjqWMtdzs1d0ddNchpsAHaFj&w=298&h=204&c=12&rs=1&qlt=99&pcl=faf9f7&o=6&dpr=1.3&pid=13.1');
+background-color: #1876f2;  
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1876f2;
+    padding:5px 5%;
+}
+.logo{
+    width: 100px;
+    margin-right: 45px;
+
+}
+
+.nav-left, .nav-right{
+    display: flex;
+    align-items:center;
+}
+.nav-left ul li{
+    list-style: none;
+    display:inline-block;
+}
+.nav-left ul li img{
+    width: 28px;
+    margin: 0 15px;
+}
+.nav-user-icon img{
+    width: 40px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+.nav-user-icon{
+    margin-left:30px;
+}
+.search-box{
+    background: #efefef;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items:center;
+    padding: 0 15px;
+}
+.search-box img{
+    width: 25px;
+}
+.search-box input{
+    width:100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+.online{
+    position: relative;
+
+}
+.online::after{
+    content:'';
+    width:7px;
+    height:7px;
+    border:2px solid #fff;
+    border-radius:50%;
+    background: #41db51;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+}
+.left-sidebar{
+    background: #cbdffa;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    height:100vh;
+}
+.right-sidebar{
+    background: #cbdffa;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    height:100vh;
+}
+.main-content{
+    flex-basis:47%;
+
+}
+
+.MysteryIncorporated{
+    position: fixed;
+      top: 50;
+      right: 1px;
+      width: 1900;
+      height: 510px;}
+  .main{
+              width: 68px;
+              height: 60px;
+              background-color: #6a2588;
+              display: flex;
+              flex-direction: row;
+              font-family: 'PT Sans', sans-serif;
+              color: #f5f5f5;
+              text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+          }
+          a {
+              text-decoration: none;
+              color: #A0C5FA;
+          }
+          .info {
+              display: flex;
+              padding: 4px;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+          }
+          .button {
+              background-color: rgba(255, 255, 255, 0.8);
+              line-height: 18px;
+              font-size: 18px;
+              padding: 4px;
+              border-radius: 4px;
+              margin-right: 2px;
+              cursor: pointer;
+          }
+          .button a {
+              color: rgba(0, 0, 0, 0.9);
+              text-shadow: none;
+          }
+          .audiojs {
+              height: 12px;
+              background: rgba(0, 0, 0, 0.2);
+              box-shadow: none;
+              width: 100%
+          }
+  
+          .audiojs .play-pause {
+              width: 15px;
+              height: 20px;
+              padding: 0px 8px 0px 0px;
+          }
+  
+          .audiojs p {
+              width: 25px;
+              height: 20px;
+              margin: -3px 0px 0px -1px;
+          }
+  
+          .audiojs .scrubber {
+              background: #5a5a5a;
+              width: 310px;
+              height: 10px;
+              margin: 5px;
+          }
+  
+          .audiojs .progress {
+              height: 10px;
+              width: 5px;
+              background: #ccc;
+              background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ccc), color-stop(0.5, #ddd), color-stop(0.51, #ccc), color-stop(1, #ccc));
+              background-image: -moz-linear-gradient(center top, #ccc 0%, #ddd 50%, #ccc 51%, #ccc 100%);
+          }
+  
+          .audiojs .loaded {
+              height: 10px;
+              background: #000;
+              background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.5, #333), color-stop(0.51, #222), color-stop(1, #222));
+              background-image: -moz-linear-gradient(center top, #222 0%, #333 50%, #222 51%, #222 100%);
+          }
+  
+          .audiojs .time {
+              float: left;
+              height: 25px;
+              line-height: 25px;
+          }
+  
+          .audiojs .error-message {
+              height: 24px;
+              line-height: 24px;
+          }
