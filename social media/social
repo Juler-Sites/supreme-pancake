@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name=" viewport" content="=width=device-width, initial-scale=1.0">
-    <title>social media thing</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -32,9 +32,9 @@
 <div class="container">
     <div class="left-sidebar"></div>
         <div class="imp-links">
-            <a href = "#"><img src = "images/news-icon-150x150-1766993370.jpg">Latest News</a>
-            <a href = "#"><img src = "images/friends-7-3317360029.png">friends</a>
-            <a href = "#"><img src = "images/flat__group-128-1429180835.png">Groups</a>
+            <a href = "news"><img src = "images/news-icon-150x150-1766993370.jpg">Latest News</a>
+            <a href = "My Friends"><img src = "images/friends-7-3317360029.png">friends</a>
+            <a href = "Pictures""><img src = "images/flat__group-128-1429180835.png">Groups</a>
 
 
         </div>
